@@ -13,7 +13,7 @@ function formatRp(n) {
 export default function App() {
   const [cari, setCari] = useState('')
   const hasil = PRODUK.filter(p => p.nama.toLowerCase().includes(cari.toLowerCase()))
-  const noWA = '6281234567890' // GANTI NOMOR INI SAMA NOMOR WA LU
+  const noWA = '6289526193272' // GANTI NOMOR INI SAMA NOMOR WA LU
 
   return (
     <div style={{ fontFamily: 'sans-serif', background: '#fff7ed', minHeight: '100vh', paddingBottom: 40 }}>
